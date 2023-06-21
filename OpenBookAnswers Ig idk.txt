@@ -1,0 +1,38 @@
+Why is it necessary to have "git add" in the git workflow?
+- Adds new/changed files into working directory to git staging area.
+
+What is the purpose of describing the changes in commit commands?
+- Save the changes and note the changes you have included so to keep track of the changes in the code.
+
+What does the green and red color coded line means when you issue git diff?
+- Green identifies the code to be modified whereas red identifies the code to be unmodified.
+
+Under what circumstances will you use branching in a software development project?
+- To make changes that do not affect the main code.
+
+What does the term "origin" refer to in the above command?
+- To push out main repository other than the branches that were made.
+
+Do you need the "--set-upstream" option for subsequent git push commands?
+- No, as --set-upstream is to push the current branch and would view it as a default branch to be pushed each time it's being pushed.
+
+Local Repository
+
+1. Create a folder
+2. Git config => Username and email
+3. Git init => initialize repository
+4. Create files and then
+5. Git add => Staging area
+6. Git commit -m "msg"
+7. Default branch is master
+8. Git branch <Branch name>
+9. Git checkout <branch name>
+10. Go to master ranch and then merge : git merge <branch name>
+11. Git tag => Label the commit for software releases for an accurate messag for the customer's satisfaction.
+
+Remote Repository
+1. Create Github account
+2. Create a repository in github
+3. Git remote add <url of remote repository>
+4. Git push
+5. Completed.
